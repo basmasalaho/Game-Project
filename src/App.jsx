@@ -2,7 +2,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainContent from "./components/layout/MainContent";
 import NavBar from "./components/layout/NavBar";
-import Sidebar from './components/layout/Sidebar';
+// Update this import to match your file structure:
+import Sidebar from './components/layout/Sidebar.jsx';
 import GameDetailPage from './components/layout/GameDetailPage';
 import { GameProvider } from './context/GameContext';
 
