@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import React from 'react';
+
 import GenreList from "../Genres/GenreList";
 import sidbar from "../../assets/styles/SideBar.module.css";
 import navBarStyles from "../../assets/styles/NaveBar.module.css"
