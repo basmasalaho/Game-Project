@@ -2,7 +2,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainContent from "./components/layout/MainContent";
 import NavBar from "./components/layout/NavBar";
-import SideBar from "./components/layout/Sidebar";
+
+import Sidebar from './components/layout/Sidebar.jsx'
+
+import Sidebar from './components/layout/Sidebar/index.jsx'
 import GameDetailPage from './components/layout/GameDetailPage';
 import { GameProvider } from './context/GameContext';
 
