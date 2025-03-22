@@ -1,4 +1,5 @@
-
+import React from 'react';
+import SideBar from './Sidebar';
 import Logo from "./Logo";
 import LogoImage from "../../assets/images/image.png";
 import SearchInput from "./SearchInput";
